@@ -93,10 +93,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W               &kp E         &kp R                        &kp T                                                                                &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A               &kp S               &kp D         &kp F                        &kp G        &kp LS(LG(S))                              &kp MINUS                    &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z               &kp X               &kp C         &kp V                        &kp B        &kp INTERNATIONAL_3                        &kp LEFT_BRACKET             &kp N        &kp M  &kp COMMA  &kp DOT  &kp SINGLE_QUOTE
-&mt LEFT_SHIFT TAB  &mt LCTRL LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 4 INT_HENKAN  &lt 1 SPACE  &lt_to_layer_0 3 INT_KATAKANAHIRAGANA      &mt RIGHT_CONTROL BACKSPACE  &lt 2 ENTER                             &mt RIGHT_SHIFT DELETE
+&kp Q           &kp W               &kp E             &kp R                        &kp T                                                                                &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A           &kp S               &kp D             &kp F                        &kp G        &kp LS(LG(S))                              &kp MINUS                    &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z           &kp X               &kp C             &kp V                        &kp B        &kp INTERNATIONAL_3                        &kp LEFT_BRACKET             &kp N        &kp M  &kp COMMA  &kp DOT  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &mt LCTRL LEFT_WIN  &mt LEFT_ALT TAB  &lt_to_layer_0 4 INT_HENKAN  &lt 1 SPACE  &lt_to_layer_0 3 INT_KATAKANAHIRAGANA      &mt RIGHT_CONTROL BACKSPACE  &lt 2 ENTER                             &mt RIGHT_SHIFT DELETE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -110,7 +110,7 @@
 &trans           &trans     &trans             &trans     &trans         &trans       &trans  &trans                                                   &kp N0
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         NUM {
@@ -135,11 +135,13 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&to_layer_0 Q           &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I  &to_layer_0 O  &to_layer_0 P
+&to_layer_0 A           &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &to_layer_0 H  &to_layer_0 J  &to_layer_0 K  &to_layer_0 L  &kp PAGE_UP
+&to_layer_0 Z           &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &to_layer_0 N  &to_layer_0 M  &mkp MB1       &mkp MB2       &kp PAGE_DOWN
+&to_layer_0 LEFT_SHIFT  &trans         &trans         &trans         &trans         &trans      &trans  &trans                                                      &trans
             >;
+
+            sensor-bindings = <&scroll_up_down>;
         };
 
         SCROLL {
