@@ -62,6 +62,8 @@
                  <&sl 4>;
 
            label = "mkp_EXIT_AML";
+
+  };
     };
 
     behaviors {
