@@ -96,7 +96,7 @@
             bindings = <
 &kp Q           &kp W               &kp E             &mt LG(R) R                  &kp T                                                                                &kp Y        &kp U  &lt 5 I    &kp O    &mt LG(P) P
 &kp A           &kp S               &kp D             &kp F                        &kp G        &kp LS(LG(S))                              &kp MINUS                    &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z           &kp X               &mt LG(C) C       &kp V                        &kp B        &kp INTERNATIONAL_3                        &kp JP_UNDERSCORE            &kp N        &kp M  &kp COMMA  &kp DOT  &kp SINGLE_QUOTE
+&kp Z           &kp X               &mt LG(C) C       &kp V                        &kp B        &lt 4 INTERNATIONAL_3                      &kp JP_UNDERSCORE            &kp N        &kp M  &kp COMMA  &kp DOT  &kp SINGLE_QUOTE
 &kp LEFT_SHIFT  &mt LCTRL LEFT_WIN  &mt LEFT_ALT TAB  &lt_to_layer_0 6 INT_HENKAN  &lt 1 SPACE  &lt_to_layer_0 3 INT_KATAKANAHIRAGANA      &mt RIGHT_CONTROL BACKSPACE  &lt 2 ENTER                             &mt RIGHT_SHIFT DELETE
             >;
 
@@ -121,6 +121,8 @@
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp EQUAL       &kp F1  &kp F2  &kp F3  &kp F12  &kp LS(EQUAL)
 &kp KP_NUMLOCK              &trans           &trans           &trans           &trans        &trans                       &trans          &trans                           &kp PIPE
             >;
+
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_OUT C_AC_ZOOM_IN>;
         };
 
         ARROW {
@@ -142,7 +144,7 @@
 &to_layer_0 LEFT_SHIFT  &kp LWIN       &trans         &trans         &trans         &trans      &trans  &to_layer_0 RETURN                                               &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(C_AC_ZOOM_IN) LC(C_AC_ZOOM_OUT)>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         SCROLL {
