@@ -138,10 +138,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q           &to_layer_0 W     &to_layer_0 E    &to_layer_0 R          &to_layer_0 T                                                    &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I  &to_layer_0 O  &to_layer_0 P
-&to_layer_0 A           &to_layer_0 S     &to_layer_0 D    &to_layer_0 F          &to_layer_0 G  &trans                     &kp MINUS              &to_layer_0 H  &to_layer_0 J  &to_layer_0 K  &to_layer_0 L  &kp PAGE_UP
-&to_layer_0 Z           &to_layer_0 X     &to_layer_0 C    &to_layer_0 V          &to_layer_0 B  &kp INTERNATIONAL_3        &trans                 &to_layer_0 N  &to_layer_0 M  &mkp MB1       &mkp MB2       &kp PAGE_DOWN
-&to_layer_0 LEFT_SHIFT  &to_layer_0 LWIN  &to_layer_0 TAB  &lt 6 INTERNATIONAL_4  &lt 1 SPACE    &lt 3 INTERNATIONAL_2      &to_layer_0 BACKSPACE  &lt 2 RETURN                                                &kp DELETE
+&to_layer_0 Q           &to_layer_0 W     &to_layer_0 E    &to_layer_0 R          &to_layer_0 T                                                          &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I  &to_layer_0 O  &to_layer_0 P
+&to_layer_0 A           &to_layer_0 S     &to_layer_0 D    &to_layer_0 F          &to_layer_0 G  &trans                           &to_layer_0 MINUS      &to_layer_0 H  &to_layer_0 J  &to_layer_0 K  &to_layer_0 L  &kp PAGE_UP
+&to_layer_0 Z           &to_layer_0 X     &to_layer_0 C    &to_layer_0 V          &to_layer_0 B  &to_layer_0 INTERNATIONAL_3      &to_layer_0 B          &to_layer_0 N  &to_layer_0 M  &mkp MB1       &mkp MB2       &kp PAGE_DOWN
+&to_layer_0 LEFT_SHIFT  &to_layer_0 LWIN  &to_layer_0 TAB  &lt 6 INTERNATIONAL_4  &lt 1 SPACE    &lt 3 INTERNATIONAL_2            &to_layer_0 BACKSPACE  &lt 2 RETURN                                                &kp DELETE
             >;
 
             sensor-bindings = <&scroll_up_down>;
