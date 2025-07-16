@@ -116,10 +116,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7     &kp KP_NUMBER_8   &kp KP_NUMBER_9  &kp PLUS                                     &kp F7  &kp F8  &kp F9  &kp F10  &trans
-&kp SLASH                   &kp KP_NUMBER_4     &kp KP_NUMBER_5   &kp KP_NUMBER_6  &kp ASTERISK  &kp KP_NUMLOCK      &kp ESC    &kp F4  &kp F5  &kp F6  &kp F11  &trans
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1     &kp KP_NUMBER_2   &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL           &kp EQUAL  &kp F1  &kp F2  &kp F3  &kp F12  &kp LS(EQUAL)
-&kp LEFT_SHIFT              &mt LCTRL LEFT_GUI  &mt LEFT_ALT TAB  &trans           &trans        &trans              &trans     &trans                           &kp PIPE
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8   &kp KP_NUMBER_9  &kp PLUS                                          &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5   &kp KP_NUMBER_6  &kp ASTERISK  &kp KP_NUMLOCK           &kp ESC    &kp F4  &kp F5  &kp F6  &kp F11  &trans
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2   &kp KP_NUMBER_3  &kp PERIOD    &kp INTERNATIONAL_3      &kp EQUAL  &kp F1  &kp F2  &kp F3  &kp F12  &trans
+&kp LEFT_SHIFT              &kp LCTRL        &mt LEFT_ALT TAB  &trans           &trans        &trans                   &trans     &trans                           &kp LEFT_BRACKET
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -138,10 +138,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q           &to_layer_0 W     &to_layer_0 E  &to_layer_0 R      &to_layer_0 T                                                                  &to_layer_0 Y       &to_layer_0 U  &to_layer_0 I  &to_layer_0 O  &to_layer_0 P
-&to_layer_0 A           &to_layer_0 S     &to_layer_0 D  &to_layer_0 F      &to_layer_0 G      &trans                           &to_layer_0 MINUS          &to_layer_0 H       &to_layer_0 J  &to_layer_0 K  &to_layer_0 L  &kp PAGE_UP
-&to_layer_0 Z           &to_layer_0 X     &to_layer_0 C  &to_layer_0 V      &to_layer_0 B      &to_layer_0 INTERNATIONAL_3      &to_layer_0 JP_UNDERSCORE  &to_layer_0 N       &to_layer_0 M  &mkp MB1       &mkp MB2       &kp PAGE_DOWN
-&to_layer_0 LEFT_SHIFT  &to_layer_0 LWIN  &to 0          &to_layer_0 LC(X)  &to_layer_0 LC(C)  &mt LC(LA(V)) LC(V)              &to_layer_0 BACKSPACE      &to_layer_0 RETURN                                               &to 0
+&to_layer_0 Q           &to_layer_0 W      &to_layer_0 E  &to_layer_0 R      &to_layer_0 T                                                                  &to_layer_0 Y       &to_layer_0 U  &to_layer_0 I  &to_layer_0 O  &to_layer_0 P
+&to_layer_0 A           &to_layer_0 S      &to_layer_0 D  &to_layer_0 F      &to_layer_0 G      &trans                           &to_layer_0 MINUS          &to_layer_0 H       &to_layer_0 J  &to_layer_0 K  &to_layer_0 L  &kp PAGE_UP
+&to_layer_0 Z           &to_layer_0 X      &to_layer_0 C  &to_layer_0 V      &to_layer_0 B      &to_layer_0 INTERNATIONAL_3      &to_layer_0 JP_UNDERSCORE  &to_layer_0 N       &to_layer_0 M  &mkp MB1       &mkp MB2       &kp PAGE_DOWN
+&to_layer_0 LEFT_SHIFT  &to_layer_0 LCTRL  &to 0          &to_layer_0 LC(X)  &to_layer_0 LC(C)  &mt LC(LA(V)) LC(V)              &to_layer_0 BACKSPACE      &to_layer_0 RETURN                                               &to 0
             >;
 
             sensor-bindings = <&scroll_up_down>;
