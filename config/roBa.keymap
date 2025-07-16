@@ -127,7 +127,7 @@
 
         ARROW {
             bindings = <
-&kp LA(Q)       &mt LG(TAB) LA(TAB)  &kp LG(E)      &kp LC(R)            &kp LC(T)                                              &kp ESCAPE    &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &mt LC(P) LG(P)
+&kp LA(Q)       &mt LG(TAB) LA(TAB)  &kp LG(E)      &kp LG(R)            &kp LC(T)                                              &kp ESCAPE    &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &mt LC(P) LG(P)
 &kp LC(A)       &kp LC(S)            &kp LC(D)      &kp LC(F)            &kp LC(G)  &trans                     &kp PRINTSCREEN  &kp TAB       &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP
 &kp LC(Z)       &kp LC(X)            &kp LC(C)      &mt LC(LA(V)) LC(V)  &kp LC(B)  &kp LA(LS(RS(MINUS)))      &kp SCROLLLOCK   &kp CAPSLOCK  &kp HOME         &trans          &kp END          &kp PAGE_DOWN
 &kp LEFT_SHIFT  &kp RCTRL            &kp LC(LSHFT)  &trans               &trans     &trans                     &trans           &trans                                                          &trans
