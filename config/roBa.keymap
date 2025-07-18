@@ -6,7 +6,7 @@
 #define MOUSE 4
 #define SCROLL 5
 #define NUM 6
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 #define JP_UNDERSCORE   LS(0x87)          // _
 
 &mt {
@@ -52,20 +52,20 @@
             label = "TO_LAYER_0";
         };
 
-        mkp_exit_AML: mkp_exit_AML {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings =
-                <&macro_press>,
-                <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
-                <&macro_tap>,
-                <&sl 4>;
-
-            label = "MKP_EXIT_AML";
-        };
+//      mkp_exit_AML: mkp_exit_AML {
+//           compatible = "zmk,behavior-macro-one-param";
+//            #binding-cells = <1>;
+//            bindings =
+//                <&macro_press>,
+//                <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
+//                <&macro_pause_for_release>,
+//                <&macro_release>,
+//                <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
+//                <&macro_tap>,
+//                <&sl 4>;
+//
+//            label = "MKP_EXIT_AML";
+//        };
     };
 
     behaviors {
@@ -82,11 +82,10 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
             // 追加: スクロールのタップ時間を設定 (20ms)
-
             tap-ms = <20>;
         };
+
     };
 
     keymap {
