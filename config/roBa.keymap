@@ -55,7 +55,7 @@
         external: external {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp N &kp T &kp AT &kp N3 &kp N0 &kp T &kp H>;
+            bindings = <&none &kp N &kp T &kp LEFT_BRACKET &kp N3 &kp N0 &kp T &kp H>;
             label = "EXTERNAL";
         };
 
@@ -69,7 +69,7 @@
         user: user {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(C) &kp H &kp A &kp K &kp A &kp P &kp N0 &kp K &kp N0 &kp AT &kp F &kp D &kp N3 &kp S>;
+            bindings = <&none &kp LS(C) &kp H &kp A &kp K &kp A &kp P &kp N0 &kp K &kp N0 &kp LEFT_BRACKET &kp F &kp D &kp N3 &kp S>;
             label = "USER";
         };
 
