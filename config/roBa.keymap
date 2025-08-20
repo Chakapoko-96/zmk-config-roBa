@@ -115,10 +115,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W               &kp E             &kp R                        &kp T                                                                            &mt LC(Y) Y  &kp U  &kp I     &kp O     &kp P
-&mt LC(A) A     &mt LC(S) S         &mt LC(D) D       &mt LC(F) F                  &kp G        &kp LS(LG(S))                              &mt JP_UNDERSCORE MINUS  &kp H        &kp J  &kp K     &mkp MB2  &lt 5 SEMICOLON
-&mt LC(Z) Z     &mt LC(X) X         &mt LC(C) C       &mt LC(V) V                  &mt LC(B) B  &mt INTERNATIONAL_3 COMMA                  &mt LS(MINUS) PERIOD     &kp N        &kp M  &mkp MB1  &kp L     &lt 5 SINGLE_QUOTE
-&kp LEFT_SHIFT  &mt LCTRL LEFT_WIN  &mt LEFT_ALT TAB  &lt_to_layer_0 6 INT_HENKAN  &lt 1 SPACE  &lt_to_layer_0 3 INT_KATAKANAHIRAGANA      &kp BACKSPACE            &lt 2 ENTER                             &mt RIGHT_SHIFT LEFT_BRACKET
+&kp Q           &kp W               &kp E             &kp R             &kp T                                                                 &mt LC(Y) Y  &kp U  &kp I     &kp O     &kp P
+&mt LC(A) A     &mt LC(S) S         &mt LC(D) D       &mt LC(F) F       &kp G        &kp LS(LG(S))                   &mt JP_UNDERSCORE MINUS  &kp H        &kp J  &kp K     &mkp MB2  &lt 5 SEMICOLON
+&mt LC(Z) Z     &mt LC(X) X         &mt LC(C) C       &mt LC(V) V       &mt LC(B) B  &mt INTERNATIONAL_3 COMMA       &mt LS(MINUS) PERIOD     &kp N        &kp M  &mkp MB1  &kp L     &lt 5 SINGLE_QUOTE
+&kp LEFT_SHIFT  &mt LCTRL LEFT_WIN  &mt LEFT_ALT TAB  &lt 6 INT_HENKAN  &lt 1 SPACE  &lt 3 INT_KATAKANAHIRAGANA      &kp BACKSPACE            &lt 2 ENTER                             &mt RIGHT_SHIFT LEFT_BRACKET
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -159,10 +159,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q           &to_layer_0 W      &to_layer_0 E  &to_layer_0 R    &to_layer_0 T                                                      &to_layer_0 Y       &to_layer_0 U  &to_layer_0 I  &to_layer_0 O  &to_layer_0 P
-&to_layer_0 A           &to_layer_0 S      &to_layer_0 D  &to_layer_0 F    &to_layer_0 G  &trans                   &to_layer_0 JP_UNDERSCORE  &to_layer_0 H       &to_layer_0 J  &to_layer_0 K  &mkp MB2       &lt 5 PAGE_UP
-&to_layer_0 Z           &to_layer_0 X      &to_layer_0 C  &to_layer_0 V    &to_layer_0 B  &to_layer_0 COMMA        &to_layer_0 PERIOD         &to_layer_0 N       &to_layer_0 M  &mkp MB1       &to_layer_0 L  &lt 5 PAGE_DOWN
-&to_layer_0 LEFT_SHIFT  &to_layer_0 LCTRL  &to 0          &mt LC(X) LC(C)  &kp SPACE      &mt LC(LS(V)) LC(V)      &to_layer_0 BACKSPACE      &to_layer_0 RETURN                                               &to 0
+&to_layer_0 Q           &to_layer_0 W      &to_layer_0 E  &to_layer_0 R                &to_layer_0 T                                                                       &to_layer_0 Y       &to_layer_0 U  &to_layer_0 I  &to_layer_0 O  &to_layer_0 P
+&to_layer_0 A           &to_layer_0 S      &to_layer_0 D  &to_layer_0 F                &to_layer_0 G      &trans                                &to_layer_0 JP_UNDERSCORE  &to_layer_0 H       &to_layer_0 J  &to_layer_0 K  &mkp MB2       &lt 5 PAGE_UP
+&to_layer_0 Z           &to_layer_0 X      &to_layer_0 C  &to_layer_0 V                &to_layer_0 B      &to_layer_0 COMMA                     &to_layer_0 PERIOD         &to_layer_0 N       &to_layer_0 M  &mkp MB1       &to_layer_0 L  &lt 5 PAGE_DOWN
+&to_layer_0 LEFT_SHIFT  &to_layer_0 LCTRL  &to 0          &to_layer_0 INTERNATIONAL_4  &to_layer_0 SPACE  &to_layer_0 INT_KATAKANAHIRAGANA      &to_layer_0 BACKSPACE      &to_layer_0 RETURN                                               &to 0
             >;
 
             sensor-bindings = <&scroll_up_down>;
