@@ -25,3 +25,7 @@ include:
    shield: roBa_L
  - board: seeeduino_xiao_ble
    shield: settings_reset
+properties:
+  locking:
+    type: boolean
+    description: Whether to "lock" the layer active, preventing behaviors without the "locking" property from deactivating the layer
