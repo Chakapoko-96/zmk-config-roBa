@@ -6,3 +6,7 @@ url: https://github.com/kumamuk-git/zmk-config-roBa
 requires: [seeeduino_xiao_ble]
 features:
   - keys
+  properties:
+  locking:
+    type: boolean
+    description: Whether to "lock" the layer active, preventing behaviors without the "locking" property from deactivating the layer
