@@ -1,3 +1,4 @@
+
 # This file generates the GitHub Actions matrix.
 # For simple board + shield combinations, add them to the top level board and
 # shield arrays, for more control, add individual board + shield combinations
@@ -18,10 +19,10 @@
 #
 ---
 include:
- - board: xiao_ble
+ - board: seeeduino_xiao_ble
    shield: roBa_R
    snippet: studio-rpc-usb-uart
- - board: xiao_ble
+ - board: seeeduino_xiao_ble
    shield: roBa_L
- - board: xiao_ble
+ - board: seeeduino_xiao_ble
    shield: settings_reset
