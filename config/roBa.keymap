@@ -135,7 +135,7 @@
 &kp LEFT_SHIFT              &kp LCTRL        &mt LEFT_ALT TAB  &trans           &trans        &trans                   &trans     &trans                           &kp LEFT_BRACKET
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         ARROW {
