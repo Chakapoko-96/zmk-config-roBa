@@ -16,7 +16,7 @@ remote: kumamuk-git
 revision: main
 - name: zephyr
 remote: zephyrproject-rtos
-revision: v4.1.0
+revision: v0.2.1
 self:
 path: config
     
