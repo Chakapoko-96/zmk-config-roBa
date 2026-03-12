@@ -1,7 +1,7 @@
 name: build
 on: [push, pull_request, workflow_dispatch]
 env:
-FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+ FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
 jobs:
   build:
