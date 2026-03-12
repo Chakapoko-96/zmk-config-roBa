@@ -113,7 +113,7 @@
 &kp LEFT_SHIFT  &mt LCTRL LEFT_WIN  &mt LEFT_ALT TAB  &lt 6 INT_HENKAN  &lt 1 SPACE  &lt 3 SPACE                    &kp BACKSPACE            &lt 2 ENTER                                     &mt RIGHT_SHIFT LEFT_BRACKET
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
 
         SYMBOLS {
@@ -135,7 +135,7 @@
 &kp LEFT_SHIFT              &kp LCTRL        &mt LEFT_ALT TAB  &trans           &trans        &trans                   &trans     &trans                           &kp LEFT_BRACKET
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         ARROW {
@@ -146,7 +146,7 @@
 &kp LEFT_SHIFT  &kp RCTRL            &kp LC(LSHFT)  &trans               &trans     &trans                     &trans           &trans                                                          &kp LA(LC(DELETE))
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         MOUSE {
