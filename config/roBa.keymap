@@ -135,7 +135,7 @@
 &kp LEFT_SHIFT              &kp LCTRL        &mt LEFT_ALT TAB  &trans           &trans        &trans                   &trans     &trans                           &kp LEFT_BRACKET
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         ARROW {
@@ -146,7 +146,7 @@
 &kp LEFT_SHIFT  &kp RCTRL            &kp LC(LSHFT)  &trans               &trans     &trans                     &trans           &trans                                                          &kp LA(LC(DELETE))
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
+            sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
 
         MOUSE {
