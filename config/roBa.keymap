@@ -146,7 +146,7 @@
 &kp LEFT_SHIFT  &kp RCTRL            &kp LC(LSHFT)  &trans               &trans     &trans                     &trans           &trans                                                          &kp LA(LC(DELETE))
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         MOUSE {
